@@ -1,25 +1,31 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <h1>Responsive Image Search Engine</h1>
-            <button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
-        </header>
-        <div class="search-container">
-            <input type="text" id="search-query" placeholder="Search for images...">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Discover Stunning Images</h1>
+        <p>Search from a vast collection of high-quality images and find inspiration for your projects!</p>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Type keywords here...">
             <button onclick="searchImages()">Search</button>
         </div>
-        <div class="results" id="results"></div>
-        
-        
-        <script src="script.js" async defer></script>
-    </body>
+
+        <div id="results" class="search-results"></div>
+    </div>
+
+    <footer>
+        &copy; Nilesh Nannaware. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
 
