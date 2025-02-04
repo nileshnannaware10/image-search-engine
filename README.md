@@ -16,5 +16,5 @@ A user-friendly Image Search Engine built using HTML, CSS, and JavaScript. This 
   - CSS3: Styling and responsive layout.
   - JavaScript: Logic for fetching data and handling user interactions.
 
-- **API:**
+  - **API:**
   - Integrated with an image API (e.g., Unsplash API) for fetching images.
